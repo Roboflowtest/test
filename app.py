@@ -60,10 +60,10 @@ if st.sidebar.button('Detect Objects'):
 
     # Display Nitrogen and Potassium Deficiency Information
     with st.expander("Plant Health Information"):
-        st.subheader("Nitrogen Deficiency Information:")
+        st.subheader("Nitrogen Deficiency rectification:")
         st.write("- Avoid overwatering.")
         st.write("- Use fertilizers high in nitrogen.")
         st.write("- Consider growing legumes in the same plot.")
 
-        st.subheader("Potassium Deficiency Information:")
-        st.write("Fertilizers high in potassium, such as seaweed products, can help address potassium deficiencies.")
+        st.subheader("Potassium Deficiency rectification:")
+        st.write("- Fertilizers high in potassium, such as seaweed products, can help address potassium deficiencies.")
